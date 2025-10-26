@@ -32,16 +32,18 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:duplicateParentState">true</item>
         <item name="android:textColor">@color/ucrop_scale_text_view_selector</item>
+        <item name="android:fontFamily">@font/signikab</item>
+        <item name="android:textSize">@dimen/ucrop_text_view_crop_aspect_ratio</item>
     </style>
 
     <style name="ucrop_TextViewWidgetText">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/ucrop_color_widget_text</item>
         <item name="android:layout_marginTop">@dimen/ucrop_margin_top_widget_text</item>
         <item name="android:textSize">@dimen/ucrop_text_size_widget_text</item>
+        <item name="android:fontFamily">@font/signikab</item>
     </style>
 
     <style name="ucrop_TextViewWidget">
@@ -50,8 +52,8 @@
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginTop">@dimen/ucrop_margin_top_controls_text</item>
         <item name="android:textColor">@color/ucrop_color_widget_active</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:textSize">@dimen/ucrop_text_size_controls_text</item>
+        <item name="android:fontFamily">@font/signikab</item>
     </style>
 
 </resources>
